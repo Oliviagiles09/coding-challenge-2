@@ -12,3 +12,16 @@ let totalOrders = orders.reduce((sum, order) => sum + order, 0);
 
 consol.log("Updated Orders:", orders);
 consol.log("Total Order Count:", totalOrders);
+
+// Task 3 
+let employee = {
+  name: "Natalie",
+  role: "Software Engineer",
+  preformanceScore: 86,
+  isActive: true
+};
+
+employee.performanceScore = 96;
+employee.promotionEligible = true;
+
+consol.log("Updated employee: ", employee);
