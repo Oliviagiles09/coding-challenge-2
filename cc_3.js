@@ -25,3 +25,15 @@ employee.performanceScore = 96;
 employee.promotionEligible = true;
 
 consol.log("Updated employee: ", employee);
+
+// Task 4
+let feedbacks = [
+  {customerName: "Emma", feedbackText: "Good service", raiting: 4}
+  {customerName: "Hailey", feedbackText: "Bad service", raiting: 1}
+{customerName: "Ari", feedbackText: "Amazing!!", raiting: 5}
+];
+
+ feedback.push({customerName: "Amy", feedbackText: "Great service", raiting: 5});
+
+consol.log("Updated feedbacks: ", feedbacks);
+
